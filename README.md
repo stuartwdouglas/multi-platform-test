@@ -12,5 +12,4 @@ Before you begin creating an application with this `devfile` code sample, it's h
 3. The `devfile.yaml` [`kubernetes-deploy` component](https://github.com/devfile-samples/devfile-sample-go-basic/blob/main/devfile.yaml#L27-L40) points to a `deploy.yaml` file that contains instructions for deploying the built container image.
 4. The `devfile.yaml` [`deploy` command](https://github.com/devfile-samples/devfile-sample-go-basic/blob/main/devfile.yaml#L42-L55) completes the [outerloop](https://devfile.io/docs/2.2.0/innerloop-vs-outerloop) deployment phase by pointing to the `image-build` and `kubernetes-deploy` components to create your application.
 
-
-test3
+test4
